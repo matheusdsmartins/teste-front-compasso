@@ -9,7 +9,7 @@ Após a clonagem ao acessar a raiz do projeto você poderá rodar os seguintes c
 ### `yarn start`
 
 A aplicação rodará em modo de desenvolvimento e estará disponível em<br />
-[http://localhost:3000](http://localhost:3000), abra a URL para vê-la no Browser.
+[http://localhost:8000](http://localhost:8000), abra a URL para vê-la no Browser.
 
 ### `yarn test`
 
