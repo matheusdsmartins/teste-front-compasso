@@ -1,0 +1,67 @@
+.userbox {
+  align-items: center;
+
+  @media screen and (min-width: 480px) {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  &__image {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 16px;
+    border: 1px solid #777777;
+    flex-shrink: 0;
+
+    @media screen and (min-width: 480px) {
+      margin-bottom: 0;
+      margin-right: 16px;
+    }
+  }
+
+  &__content {
+    font-size: 1rem;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 480px) {
+      justify-content: flex-end;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__actions {
+    margin-top: 16px;
+    display: flex;
+
+    @media screen and (min-width: 480px) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 0;
+    }
+  }
+
+  &__userlink {
+    text-decoration: underline;
+  }
+
+  &__badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 0.85rem;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: white;
+    color: #777777;
+    line-height: 1;
+  }
+}
